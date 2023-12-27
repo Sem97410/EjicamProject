@@ -1,0 +1,45 @@
+{
+    "name": "CustomInput",
+    "maps": [
+        {
+            "name": "Usual Player Movement",
+            "id": "fb7d4a15-5422-43a9-8e86-4b62218652c2",
+            "actions": [
+                {
+                    "name": "Sauter",
+                    "type": "Button",
+                    "id": "280d14fe-79d9-4c22-8092-863502afa134",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9d88d2c8-4e24-43b8-af7c-0160a4680edf",
+                    "path": "<Keyboard>/space",
+                    "interactions": "MultiTap(tapDelay=1,tapCount=3)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sauter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c1881f6-7a2d-47b2-96bb-cc934e0ac41d",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sauter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
