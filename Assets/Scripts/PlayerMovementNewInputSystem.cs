@@ -48,4 +48,6 @@ public class PlayerMovementNewInputSystem : MonoBehaviour
         Debug.Log("Movement cancelled on device: " + value.control.device.displayName);
 
     }
+
+    
 }
